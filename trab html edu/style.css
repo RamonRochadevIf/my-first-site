@@ -99,13 +99,33 @@
            
         }
             
-            
+            .slogan-vo{
+                display: flex;
+                justify-content: center;
+            }
+
+            .slogan-pai{
+                align-content: center;
+                border: solid var(--color-red) 1px;
+                width: 500px;
+                height: 70px;
+                padding:10px;
+                align-content: center;
+                background-color: #b81414;
+                border-radius: 50px ;
+                box-shadow: 2px 1px 5px var(--color-dark);
+                margin-top: ;
+
+            }
 
         .slogan{
             text-shadow: 1px 1px 4px var(--color-dark);
             text-align: center;
-
+            margin-top: 15px;
+            
         }
+
+
         .container{
             display: flex;
             justify-content: center;
